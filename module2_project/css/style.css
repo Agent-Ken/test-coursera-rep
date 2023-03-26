@@ -1,1 +1,13 @@
+/********* Desktop breakpoint *********/
+@media (min-width: 992px) {
+  }
+}
+/********* Tablets breakpoint *********/
+@media (min-width: 768px) and (max-width: 991px) {
+  }
+}
 
+/********* Mobile breakpoint *********/
+@media (min-width: 0px) and (max-width: 767px) {
+  }
+}
