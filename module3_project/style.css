@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+
+* {
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*
+body {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+}
+*/
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#header-nav {
+  background-color:indianred;
+  border-radius: 0;
+  border: 1px;
+  min-height: 80px;
+}
+
+#nav-list a {
+  color: limegreen;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  background:crimson;
+  color: yellowgreen;
+}
+
+.navbar-header .icon-bar, .navbar-header button.navbar-toggle {
+  border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: .75;
+}
+
+h3 {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.backgroundtext {
+  height: auto;
+  padding: 25px 45px 25px 45px;
+  background-color: indianred;
+  color: rgba(30, 30, 30, 0.9);
+  overflow: hidden;
+  font-size: 16px;
+}
+
+#maintitle {
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+#maintext {
+  padding-left: 20px;
+  padding-right: 20px;
+}
